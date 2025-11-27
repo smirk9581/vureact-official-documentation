@@ -1,38 +1,40 @@
 ---
 layout: home
 
-title: Vureact Official Documentation
+title: React Vue3 Components
 
 hero:
   name: "React Vue3 Components"
-
-  text: "跨框架组件封装工具"
-  
-  tagline: "在 React 中用 Vue，在 Vue 中用 React。"
-
+  text: "跨框架组件兼容层"
+  tagline: "为 React 18+ 引入 Vue3 核心能力：复用 KeepAlive、Transition、Router 等组件机制，简化跨技术栈开发。"
   actions:
     - theme: brand
-      text: 入门 →
+      text: 开始使用 →
       link: /guide/introduction
-      
     - theme: alt
-      text: react vue3 hooks
-      link: https://example.com
-
+      text: React Vue3 Hooks
+      link: https://react-vue3-hooks.vercel.app/
     - theme: alt
-      text: vureact
-      link: https://example.com
+      text: Vureact
+      link: https://vureact.vercel.app/
 
 features:
   - icon: 🌉
-    title: 零配置桥接
-    details: 简单 API 即可实现组件的相互嵌入。
-
-  - icon: 🚀
-    title: 高性能
-    details: 利用 Vue 3 和 React 的最新特性实现高效渲染。
-
-  - icon: 🔌
-    title: 完整事件支持
-    details: 确保事件和 Props 能够双向正确传递。
+    title: 核心能力对齐
+    details: 在 React 环境中原生复用 Vue3 核心组件（如 KeepAlive、Transition 等），实现跨框架开发流程与特性的一致性。
+  - icon: 👷‍♂️
+    title: 最小化迁移与适配成本
+    details: 通过高抽象 API 层，预置常见的跨框架适配逻辑，可显著减少 50%+ 的手写适配代码，实现低阻力（Low-Friction）集成。
+  - icon: 🔄
+    title: 一致的语义与风格
+    details: API 设计严格遵循 Vue3 核心组件的语义和使用习惯，使熟悉 Vue 的开发者能够以极低学习成本快速上手 React 项目，实现代码风格的快速复用。    
+  - icon: ⚡️
+    title: 性能与集成优化
+    details: 基于 React 社区成熟库封装（如 react-transition-group），确保无额外性能负担，维护原生级的渲染效率和轻量化。
+  - icon: 🛠️
+    title: 统一路由管理
+    details: 模拟 Vue Router 4.x 的核心路由模式，兼容 react-router-dom 的声明式语法，支持嵌套路由与懒加载等高级特性。
+  - icon: 🎭
+    title: 声明式动画系统
+    details: 提供与 Vue Transition API 高度一致的组件过渡能力，支持 CSS 过渡类和 JS 钩子函数，便于集成 GSAP 等第三方动画库。
 ---

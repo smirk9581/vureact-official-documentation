@@ -12,16 +12,16 @@ hero:
 
   actions:
     - theme: brand
-      text: 入门 →
-      link: /vureact/guide/getting-started
+      text: 介绍 →
+      link: /guide/getting-started
       
-    - theme: link
-      text: 📦 react vue3 components
-      link: /react-vue3-components/guide/introduction
+    - theme: alt
+      text: react vue3 components
+      link: https://react-vue3-components.vercel.app/
 
-    - theme: link
-      text: 🪝 react vue3 hooks
-      link: /react-vue3-hooks/guide/introduction
+    - theme: alt
+      text: vureact
+      link: https://vureact.vercel.app/
 
 features:
   - icon: 🌉

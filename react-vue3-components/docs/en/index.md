@@ -1,50 +1,40 @@
 ---
 layout: home
 
-title: Vureact Official Documentation
+title: React Vue3 Components
 
 hero:
-  name: "VuReact"
-
-  text: "跨框架组件封装工具"
-  
-  tagline: "在 React 中用 Vue，在 Vue 中用 React。"
-
+  name: "React Vue3 Components"
+  text: "Cross-Framework"
+  tagline: "Bring Vue3's core capabilities to React 18+: Reuse component mechanisms like KeepAlive, Transition, and Router to simplify cross-tech-stack development."
   actions:
     - theme: brand
-      text: 入门 →
-      link: /en/vureact/guide/getting-started
-      
-    - theme: link
-      text: 📦 react vue3 components
-      link: /en/react-vue3-components/guide/introduction
-
-    - theme: link
-      text: 🪝 react vue3 hooks
-      link: /en/react-vue3-hooks/guide/introduction
+      text: Get Started →
+      link: /guide/introduction
+    - theme: alt
+      text: React Vue3 Hooks
+      link: https://react-vue3-hooks.vercel.app/
+    - theme: alt
+      text: Vureact
+      link: https://vureact.vercel.app/
 
 features:
   - icon: 🌉
-    title: 零配置桥接
-    details: 简单 API 即可实现组件的相互嵌入。
-
-  - icon: 🚀
-    title: 高性能
-    details: 利用 Vue 3 和 React 的最新特性实现高效渲染。
-
-  - icon: 🔌
-    title: 完整事件支持
-    details: 确保事件和 Props 能够双向正确传递。
-
-  - icon: 🔌
-    title: 完整事件支持
-    details: 确保事件和 Props 能够双向正确传递。
-
-  - icon: 🔌
-    title: 完整事件支持
-    details: 确保事件和 Props 能够双向正确传递。
-    
-  - icon: 🔌
-    title: 完整事件支持
-    details: 确保事件和 Props 能够双向正确传递。
+    title: Core Capability Alignment
+    details: Natively reuse Vue3 core components (such as KeepAlive, Transition, etc.) in React environments, achieving consistency in cross-framework development workflows and features.
+  - icon: 👷‍♂️
+    title: Minimized Migration & Adaptation Costs
+    details: Through a highly abstracted API layer with pre-configured common cross-framework adaptation logic, it can significantly reduce handwritten adaptation code by 50%+, enabling low-friction integration.
+  - icon: 🔄
+    title: Consistent Semantics & Style
+    details: The API design strictly follows the semantics and usage habits of Vue3 core components, allowing Vue-familiar developers to quickly get started with React projects at an extremely low learning cost and achieve rapid reuse of code styles.
+  - icon: ⚡️
+    title: Performance & Integration Optimization
+    details: Built on mature React community libraries (e.g., react-transition-group), ensuring no additional performance overhead while maintaining native-level rendering efficiency and lightweight architecture.
+  - icon: 🛠️
+    title: Unified Routing Management
+    details: Simulates Vue Router 4.x's core routing patterns, compatible with react-router-dom's declarative syntax, supporting advanced features like nested routes and lazy loading.
+  - icon: 🎭
+    title: Declarative Animation System
+    details: Provides component transition capabilities highly consistent with Vue Transition API, supporting CSS transition classes and JS hook functions for easy integration with third-party animation libraries like GSAP.
 ---
