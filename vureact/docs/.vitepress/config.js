@@ -36,15 +36,15 @@ export default {
             items: [
               {
                 text: 'react vue3 components',
-                link: 'https://example.com'
-              },
-              {
-                text: 'react vue3 hooks',
-                link: 'https://example.com'
+                link: 'https://react-vue3-components.vercel.app/guide/introduction.html'
               },
               {
                 text: 'react vue3 router',
-                link: 'https://example.com/router/guide.html'
+                link: 'https://react-vue3-components.vercel.app/router/guide.html'
+              },
+              {
+                text: 'react vue3 hooks',
+                link: 'https://react-vue3-hooks.vercel.app/guide/introduction.html'
               },
             ]
           },
@@ -90,15 +90,15 @@ export default {
             items: [
               {
                 text: 'react vue3 components',
-                link: 'https://example.com'
-              },
-              {
-                text: 'react vue3 hooks',
-                link: 'https://example.com'
+                link: 'https://react-vue3-components.vercel.app/en/guide/introduction.html'
               },
               {
                 text: 'react vue3 router',
-                link: 'https://example.com/router/guide.html'
+                link: 'https://react-vue3-components.vercel.app/en/router/guide.html'
+              },
+              {
+                text: 'react vue3 hooks',
+                link: 'https://react-vue3-hooks.vercel.app/en/guide/introduction.html'
               },
             ]
           },

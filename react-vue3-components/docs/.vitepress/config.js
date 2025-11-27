@@ -35,12 +35,16 @@ export default {
             text: '指南',
             items: [
               {
-                text: 'vureact',
-                link: 'https://example.com'
+                text: 'react vue3 router',
+                link: 'https://react-vue3-components.vercel.app/router/guide.html'
               },
               {
                 text: 'react vue3 hooks',
-                link: 'https://example.com'
+                link: 'https://react-vue3-hooks.vercel.app/guide/introduction.html'
+              },
+              {
+                text: 'vureact',
+                link: 'https://vureact.vercel.app/guide/introduction.html'
               },
             ]
           },
@@ -113,12 +117,16 @@ export default {
             text: 'Guides',
             items: [
               {
-                text: 'vureact',
-                link: 'https://example.com'
+                text: 'react vue3 router',
+                link: 'https://react-vue3-components.vercel.app/en/router/guide.html'
               },
               {
                 text: 'react vue3 hooks',
-                link: 'https://example.com'
+                link: 'https://react-vue3-hooks.vercel.app/en/guide/introduction.html'
+              },
+              {
+                text: 'vureact',
+                link: 'https://vureact.vercel.app/en/guide/introduction.html'
               },
             ]
           },
