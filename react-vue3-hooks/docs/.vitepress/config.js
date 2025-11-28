@@ -1,8 +1,13 @@
 export default {
   // 文档标题，会显示在浏览器标签页和站点导航栏左上角
-  title: 'VuReact.js',
+  title: 'React Vue3 Hooks',
   // 网站描述，用于 SEO
   description: 'A Vue 3 lifecycle and Hook API adaptation toolkit designed specifically for React, faithfully replicating its core functionality and usage patterns within technical feasibility to provide a flexible solution for cross-framework integration.',
+
+  head: [
+    ['meta', { name: 'robots', content: 'noindex, nofollow' }]
+  ],
+
 
   // 全局主题配置
   themeConfig: {

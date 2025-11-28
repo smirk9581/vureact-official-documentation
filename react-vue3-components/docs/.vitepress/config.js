@@ -1,8 +1,10 @@
 export default {
   // 文档标题，会显示在浏览器标签页和站点导航栏左上角
-  title: 'VuReact.js',
-  // 网站描述，用于 SEO
-  description: `The tool fully simulates Vue 3's built-in components and usage patterns, covering nearly all core functions and APIs. It also includes a dedicated Vue 3 lifecycle & Hook API adaptation toolkit for React, faithfully replicating their core functionalities and usage paradigms within technical feasibility. A flexible, production-ready solution for cross-framework migration and integration.`,
+  title: 'React Vue3 Components',
+
+  head: [
+    ['meta', { name: 'robots', content: 'noindex, nofollow' }]
+  ],
 
   // 全局主题配置
   themeConfig: {
@@ -15,7 +17,7 @@ export default {
       lang: 'zh-CN',
       link: '/',
       title: 'React Vue3 Components',
-      description: '跨框架组件封装工具',
+      description: '一款基于 React 开发的轻量级高性能组件库，旨在精准模拟 Vue 3 内置组件（如 KeepAlive、Suspense、Transition 等）和 Vue Router 的常用功能与使用风格。',
       themeConfig: {
         logo: '/logo.svg',
 
@@ -102,7 +104,7 @@ export default {
       lang: 'en-US',
       link: '/en/',
       title: 'React Vue3 Components',
-      description: 'A modern automatic compilation tool...',
+      description: `The tool fully simulates Vue 3's built-in components and usage patterns, covering nearly all core functions and APIs. It also includes a dedicated Vue 3 lifecycle & Hook API adaptation toolkit for React, faithfully replicating their core functionalities and usage paradigms within technical feasibility. A flexible, production-ready solution for cross-framework migration and integration.`,
 
       themeConfig: {
         socialLinks: [

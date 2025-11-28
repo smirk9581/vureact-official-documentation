@@ -15,7 +15,7 @@ hero:
       text: React Vue3 Hooks
       link: https://react-vue3-hooks.vercel.app/
     - theme: alt
-      text: Vureact
+      text: VuReact
       link: https://vureact.vercel.app/
 
 features:
