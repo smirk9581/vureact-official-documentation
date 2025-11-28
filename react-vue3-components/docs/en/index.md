@@ -5,8 +5,7 @@ title: React Vue3 Components
 
 hero:
   name: "React Vue3 Components"
-  text: "Cross-Framework"
-  tagline: "Bring Vue3's core capabilities to React 18+: Reuse component mechanisms like KeepAlive, Transition, and Router to simplify cross-tech-stack development."
+  tagline: "Tailored for the React ecosystem to adapt Vue 3's core built-in components and routing system"
   actions:
     - theme: brand
       text: Get Started →

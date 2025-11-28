@@ -28,7 +28,7 @@ export default {
 
         nav: [
           {
-            text: '指南',
+            text: '适配指南',
             items: [
               {
                 text: 'react vue3 components',

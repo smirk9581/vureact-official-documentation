@@ -11,7 +11,7 @@ export default {
       lang: 'zh-CN',
       link: '/',
       title: 'React Vue3 Components',
-      description: '一款基于 React 开发的轻量级高性能组件库，旨在精准模拟 Vue 3 内置组件（如 KeepAlive、Suspense、Transition 等）和 Vue Router 的常用功能与使用风格。',
+      description: 'React Vue3 跨栈融合工具包，精准模拟 Vue 的 <KeepAlive>、<Transition> 等核心组件和路由系统。 同时提供 Vue3 生命周期与 Hook APIs 的高度还原，为您的跨框架适配提供组件级与 Hook 级的完整解决方案。',
       themeConfig: {
         socialLinks: [
           {
@@ -26,7 +26,7 @@ export default {
 
         nav: [
           {
-            text: '指南',
+            text: '适配指南',
             items: [
               {
                 text: 'react vue3 router',
@@ -91,7 +91,7 @@ export default {
       lang: 'en-US',
       link: '/en/',
       title: 'React Vue3 Components',
-      description: `The tool fully simulates Vue 3's built-in components and usage patterns, covering nearly all core functions and APIs. It also includes a dedicated Vue 3 lifecycle & Hook API adaptation toolkit for React, faithfully replicating their core functionalities and usage paradigms within technical feasibility. A flexible, production-ready solution for cross-framework migration and integration.`,
+      description: `React Vue3 Cross-Stack Integration Toolkit accurately simulates Vue's core components such as <KeepAlive> and <Transition>, as well as the routing system. It also provides a high-fidelity reproduction of Vue3's lifecycle and Hook APIs, offering a complete component-level and Hook-level solution for your cross-framework adaptation.`,
 
       themeConfig: {
         socialLinks: [
@@ -103,7 +103,7 @@ export default {
 
         nav: [
           {
-            text: 'Guides',
+            text: 'Adaptation Guide',
             items: [
               {
                 text: 'react vue3 router',
