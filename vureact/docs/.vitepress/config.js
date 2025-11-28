@@ -5,9 +5,13 @@ export default {
   description: `A modern automatic compilation tool that quickly converts Vue3 code to React (Jsx/Tsx). It meets the daily business and component engineering needs of small and medium-sized projects, enabling lossless syntax conversion and precise logic migration. Leverage Vue's mental model advantages to write React code—ready to use right after conversion.`,
 
   head: [
-    ['meta', { name: 'robots', content: 'noindex, nofollow' }]
+    // ! robots 必须在正式发布项目后移除
+    ['meta', { name: 'robots', content: 'noindex, nofollow' }],
+    ['link', {
+      rel: 'icon',
+      href: '/favicon.ico'
+    }],
   ],
-
 
   // 全局主题配置
   themeConfig: {

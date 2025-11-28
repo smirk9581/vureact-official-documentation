@@ -5,9 +5,13 @@ export default {
   description: 'A Vue 3 lifecycle and Hook API adaptation toolkit designed specifically for React, faithfully replicating its core functionality and usage patterns within technical feasibility to provide a flexible solution for cross-framework integration.',
 
   head: [
-    ['meta', { name: 'robots', content: 'noindex, nofollow' }]
+    // ! robots 必须在正式发布项目后移除
+    ['meta', { name: 'robots', content: 'noindex, nofollow' }],
+    ['link', {
+      rel: 'icon',
+      href: '/favicon.ico'
+    }],
   ],
-
 
   // 全局主题配置
   themeConfig: {

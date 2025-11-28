@@ -3,7 +3,12 @@ export default {
   title: 'React Vue3 Components',
 
   head: [
-    ['meta', { name: 'robots', content: 'noindex, nofollow' }]
+    // ! robots 必须在正式发布项目后移除
+    ['meta', { name: 'robots', content: 'noindex, nofollow' }],
+    ['link', {
+      rel: 'icon',
+      href: '/favicon.ico'
+    }],
   ],
 
   // 全局主题配置
