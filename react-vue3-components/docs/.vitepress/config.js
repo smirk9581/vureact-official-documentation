@@ -1,20 +1,9 @@
+import commonConfig from '../../../vitepress-common-config';
+
 export default {
-  // 文档标题，会显示在浏览器标签页和站点导航栏左上角
   title: 'React Vue3 Components',
 
-  head: [
-    // ! robots 必须在正式发布项目后移除
-    ['meta', { name: 'robots', content: 'noindex, nofollow' }],
-    ['link', {
-      rel: 'icon',
-      href: '/favicon.ico'
-    }],
-  ],
-
-  // 全局主题配置
-  themeConfig: {
-    logo: '/logo.svg',
-  },
+  ...commonConfig,
 
   locales: {
     root: {
@@ -24,8 +13,6 @@ export default {
       title: 'React Vue3 Components',
       description: '一款基于 React 开发的轻量级高性能组件库，旨在精准模拟 Vue 3 内置组件（如 KeepAlive、Suspense、Transition 等）和 Vue Router 的常用功能与使用风格。',
       themeConfig: {
-        logo: '/logo.svg',
-
         socialLinks: [
           {
             icon: 'github',
@@ -96,11 +83,6 @@ export default {
             ],
           },
         ],
-
-        footer: {
-          message: '基于 MIT 许可证发布。',
-          copyright: 'Copyright © 2025-present Owen Dells',
-        },
       }
     },
 
@@ -178,11 +160,6 @@ export default {
             ],
           },
         ],
-
-        footer: {
-          message: 'Released under the MIT License.',
-          copyright: 'Copyright © 2025-present Owen Dells',
-        },
       }
     },
   },

@@ -1,22 +1,11 @@
+import commonConfig from '../../../vitepress-common-config';
+
 export default {
-  // 文档标题，会显示在浏览器标签页和站点导航栏左上角
-  title: 'VuReact.js',
-  // 网站描述，用于 SEO
+  title: 'VuReact',
+
   description: `A modern automatic compilation tool that quickly converts Vue3 code to React (Jsx/Tsx). It meets the daily business and component engineering needs of small and medium-sized projects, enabling lossless syntax conversion and precise logic migration. Leverage Vue's mental model advantages to write React code—ready to use right after conversion.`,
 
-  head: [
-    // ! robots 必须在正式发布项目后移除
-    ['meta', { name: 'robots', content: 'noindex, nofollow' }],
-    ['link', {
-      rel: 'icon',
-      href: '/favicon.ico'
-    }],
-  ],
-
-  // 全局主题配置
-  themeConfig: {
-    logo: '/logo.svg',
-  },
+  ...commonConfig,
 
   locales: {
     root: {
@@ -26,8 +15,6 @@ export default {
       title: 'React Vue3 Hooks',
       description: '跨框架组件封装工具',
       themeConfig: {
-        logo: '/logo.svg',
-
         socialLinks: [
           {
             icon: 'github',
@@ -70,11 +57,6 @@ export default {
             ]
           },
         ],
-
-        footer: {
-          message: '基于 MIT 许可证发布。',
-          copyright: 'Copyright © 2025-present Owen Dells',
-        },
       }
     },
 
@@ -124,11 +106,6 @@ export default {
             ]
           },
         ],
-
-        footer: {
-          message: 'Released under the MIT License.',
-          copyright: 'Copyright © 2025-present Owen Dells',
-        },
       }
     },
   },
