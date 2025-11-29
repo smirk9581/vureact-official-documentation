@@ -1,6 +1,6 @@
 # nextTick
 
-In React, we don't need to wait for a DOM update queue controlled by the framework like in Vue. We just need to wait for the current synchronous code to finish executing, giving React's scheduler a chance to run. The microtask timing provided by `Promise.resolve()` perfectly meets this requirement.
+In React, we don't need to wait for a DOM update queue controlled by the framework like in Vue. We just need to wait for the current synchronous code to finish executing, allowing React's scheduler to have a chance to run. The microtask timing provided by `Promise.resolve()` perfectly meets this requirement.
 
 ## Core Features
 
@@ -28,14 +28,14 @@ const addItem = async () => {
   // 2. Wait for DOM update to complete
   await nextTick(); 
 
-  // 3. Manipulate elements after ensuring the DOM is updated
+  // 3. Manipulate elements after ensuring DOM is updated
   listRef.current.scrollTop = listRef.current.scrollHeight;
 };
 ```
 
 ### 2. Using a Callback Function
 
-You can also pass in a callback function to be executed after the DOM update is complete.
+You can also pass a callback function to be executed after the DOM update is completed.
 
 ```jsx
 setItems(draft => {

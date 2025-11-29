@@ -47,7 +47,6 @@ export default {
         sidebar: [
           { text: '介绍', link: '/guide/introduction' },
           { text: '安装', link: '/guide/installation' },
-          { text: '对照表', link: '/guide/api-comparison' },
           {
             text: '钩子',
             items: [
@@ -65,6 +64,9 @@ export default {
               },
               {
                 text: '生命周期', items: [
+                  { text: 'useBeforeMount', link: '/hooks/useBeforeMount' },
+                  { text: 'useBeforeUnmount', link: '/hooks/useBeforeUnmount' },
+                  { text: 'useBeforeUpdate', link: '/hooks/useBeforeUpdate' },
                   { text: 'useMounted', link: '/hooks/useMounted' },
                   { text: 'useUnmounted', link: '/hooks/useUnmounted' },
                   { text: 'useUpdated', link: '/hooks/useUpdated' },
@@ -72,7 +74,21 @@ export default {
               },
             ]
           },
-          { text: 'nextTick', link: '/nextTick' },
+          {
+            text: '通用工具', items: [
+              { text: '说明', link: '/utils/description' },
+              { text: 'nextTick', link: '/utils/nextTick' },
+              {
+                text: '低级API', link: '/utils/low-level-api',
+                items: [
+                  { text: 'vBind', link: '/utils/low-level-api/vBind' },
+                  { text: 'vModel', link: '/utils/low-level-api/vModel' },
+                  { text: 'vOn', link: '/utils/low-level-api/vOn' },
+                  { text: 'vShow', link: '/utils/low-level-api/vShow' },
+                ]
+              },
+            ]
+          },
         ],
       }
     },
@@ -115,7 +131,6 @@ export default {
         sidebar: [
           { text: 'Introduction', link: '/en/guide/introduction' },
           { text: 'Installation', link: '/en/guide/installation' },
-          { text: 'Comparison Table', link: '/en/guide/api-comparison' },
           {
             text: 'Hook',
             items: [
@@ -133,6 +148,9 @@ export default {
               },
               {
                 text: 'Lifecycle', items: [
+                  { text: 'useBeforeMount', link: '/en/hooks/useBeforeMount' },
+                  { text: 'useBeforeUnmount', link: '/en/hooks/useBeforeUnmount' },
+                  { text: 'useBeforeUpdate', link: '/en/hooks/useBeforeUpdate' },
                   { text: 'useMounted', link: '/en/hooks/useMounted' },
                   { text: 'useUnmounted', link: '/en/hooks/useUnmounted' },
                   { text: 'useUpdated', link: '/en/hooks/useUpdated' },
@@ -140,7 +158,21 @@ export default {
               },
             ]
           },
-          { text: 'nextTick', link: '/en/nextTick' },
+          {
+            text: 'General utils', items: [
+              { text: 'description', link: '/en/utils/description' },
+              { text: 'nextTick', link: '/en/utils/nextTick' },
+              {
+                text: 'low-level API',
+                items: [
+                  { text: 'vBind', link: '/en/utils/low-level-api/vBind' },
+                  { text: 'vModel', link: '/en/utils/low-level-api/vModel' },
+                  { text: 'vOn', link: '/en/utils/low-level-api/vOn' },
+                  { text: 'vShow', link: '/en/utils/low-level-api/vShow' },
+                ]
+              },
+            ]
+          },
         ],
       }
     },
