@@ -79,7 +79,7 @@ export default {
               { text: '说明', link: '/utils/description' },
               { text: 'nextTick', link: '/utils/nextTick' },
               {
-                text: '低级API', link: '/utils/low-level-api',
+                text: '低级API',
                 items: [
                   { text: 'vBind', link: '/utils/low-level-api/vBind' },
                   { text: 'vModel', link: '/utils/low-level-api/vModel' },
