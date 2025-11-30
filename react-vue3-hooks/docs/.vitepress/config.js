@@ -75,18 +75,8 @@ export default {
             ]
           },
           {
-            text: '通用工具', items: [
-              { text: '说明', link: '/utils/description' },
+            text: '工具', items: [
               { text: 'nextTick', link: '/utils/nextTick' },
-              {
-                text: '低级API',
-                items: [
-                  { text: 'vBind', link: '/utils/low-level-api/vBind' },
-                  { text: 'vModel', link: '/utils/low-level-api/vModel' },
-                  { text: 'vOn', link: '/utils/low-level-api/vOn' },
-                  { text: 'vShow', link: '/utils/low-level-api/vShow' },
-                ]
-              },
             ]
           },
         ],
@@ -159,18 +149,8 @@ export default {
             ]
           },
           {
-            text: 'General utils', items: [
-              { text: 'description', link: '/en/utils/description' },
+            text: 'Utils', items: [
               { text: 'nextTick', link: '/en/utils/nextTick' },
-              {
-                text: 'low-level API',
-                items: [
-                  { text: 'vBind', link: '/en/utils/low-level-api/vBind' },
-                  { text: 'vModel', link: '/en/utils/low-level-api/vModel' },
-                  { text: 'vOn', link: '/en/utils/low-level-api/vOn' },
-                  { text: 'vShow', link: '/en/utils/low-level-api/vShow' },
-                ]
-              },
             ]
           },
         ],

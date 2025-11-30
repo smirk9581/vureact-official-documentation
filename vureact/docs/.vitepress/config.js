@@ -49,11 +49,20 @@ export default {
         sidebar: [
           { text: '介绍', link: '/guide/introduction' },
           { text: '安装', link: '/guide/install' },
-          { text: '教程说明', link: '/guide/tutorial-instructions' },
+          { text: '编译器', items: [] },
           {
-            text: 'xxx',
+            text: '运行时集合',
             items: [
-              { text: '', link: '' },
+              { text: '入门', link: '/runtime/introduction' },
+              { text: '组件', items: [] },
+              {
+                text: '工具方法', items: [
+                  { text: 'vBind', link: '/runtime/utils/vBind' },
+                  { text: 'vModel', link: '/runtime/utils/vModel' },
+                  { text: 'vOn', link: '/runtime/utils/vOn' },
+                  { text: 'vShow', link: '/runtime/utils/vShow' },
+                ]
+              },
             ]
           },
         ],
